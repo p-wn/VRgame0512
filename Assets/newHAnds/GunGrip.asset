@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 450586b6fe1e3c4409299dc6edd58dc4, type: 3}
+  m_Name: GunGrip
+  m_EditorClassIdentifier: MikeNspiredXRIStarterKit.Runtime::MikeNspired.XRIStarterKit.PoseScriptableObject
+  joints:
+  - jointName: R_Wrist
+    localPosition: {x: -0, y: 0, z: -0.08}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
+  - jointName: R_IndexMetacarpal
+    localPosition: {x: -0.019818999, y: -0.009505, z: 0.036447998}
+    localRotation: {x: 0.000000009313224, y: -0.04067419, z: 0.00000005960463, w: 0.99917245}
+  - jointName: R_IndexProximal
+    localPosition: {x: -0.003732, y: 0.002189, z: 0.059548}
+    localRotation: {x: -0.15188201, y: 0.07698251, z: -0.041177772, w: -0.98453546}
+  - jointName: R_IndexIntermediate
+    localPosition: {x: -0.0000012943846, y: -0.0000015278448, z: 0.03792841}
+    localRotation: {x: -0.13075912, y: -0.0037599201, z: 0.026288608, w: -0.99105847}
+  - jointName: R_IndexDistal
+    localPosition: {x: -0.0000009285007, y: 0.00000015937881, z: 0.024305161}
+    localRotation: {x: -0.0030181378, y: 0.026077716, z: -0.016432304, w: 0.9995203}
+  - jointName: R_IndexTip
+    localPosition: {x: 0.00029487914, y: 0.0010248977, z: 0.022363802}
+    localRotation: {x: 0, y: -4.3368087e-19, z: 0, w: 1}
+  - jointName: R_LittleMetacarpal
+    localPosition: {x: 0.022999, y: -0.009419999, z: 0.034073997}
+    localRotation: {x: -0.051669, y: -0.13312148, z: 0.21174695, w: -0.9668362}
+  - jointName: R_LittleProximal
+    localPosition: {x: -0.0000025303066, y: 0.000001160611, z: 0.045651983}
+    localRotation: {x: -0.07578552, y: -0.06428526, z: -0.09098511, w: -0.99088126}
+  - jointName: R_LittleIntermediate
+    localPosition: {x: -0.0000001720091, y: -0.0000006646861, z: 0.030719941}
+    localRotation: {x: -0.030224457, y: 0.0498646, z: -0.05248889, w: 0.9969178}
+  - jointName: R_LittleDistal
+    localPosition: {x: -0.00000013540283, y: 0.0000006386686, z: 0.020311324}
+    localRotation: {x: -0.057105944, y: -0.04819705, z: -0.0072816396, w: 0.99717754}
+  - jointName: R_LittleTip
+    localPosition: {x: -0.00024632577, y: 0.0012151983, z: 0.021923328}
+    localRotation: {x: -2.7755576e-17, y: -2.7755576e-17, z: 1.3877788e-17, w: 1}
+  - jointName: R_MiddleMetacarpal
+    localPosition: {x: -0.00361, y: -0.007648, z: 0.034286}
+    localRotation: {x: 0.12738666, y: -0.000000026077027, z: 0.000000029802315, w: 0.9918531}
+  - jointName: R_MiddleProximal
+    localPosition: {x: 0.0018839999, y: 0.005105, z: 0.061360996}
+    localRotation: {x: -0.17334968, y: -0.0118754385, z: 0.009554901, w: -0.98474246}
+  - jointName: R_MiddleIntermediate
+    localPosition: {x: 0.00000033112343, y: -0.0000008804644, z: 0.042926535}
+    localRotation: {x: 0.58179957, y: -0.0031653915, z: -0.01205601, w: 0.8132367}
+  - jointName: R_MiddleDistal
+    localPosition: {x: -0.00000017030132, y: 0.0000005871987, z: 0.027548432}
+    localRotation: {x: 0.44850445, y: -0.017611584, z: -0.03646966, w: 0.8928626}
+  - jointName: R_MiddleTip
+    localPosition: {x: 0.00030950914, y: 0.0011371507, z: 0.02496384}
+    localRotation: {x: 2.7755576e-17, y: -3.469447e-18, z: -6.938894e-18, w: 1}
+  - jointName: R_Palm
+    localPosition: {x: -0.000863, y: -0.001272, z: 0.047823}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
+  - jointName: R_RingMetacarpal
+    localPosition: {x: 0.014992, y: -0.0060159997, z: 0.034776}
+    localRotation: {x: 0.043702073, y: 0.000000014901159, z: 0.000000029802319, w: 0.99904466}
+  - jointName: R_RingProximal
+    localPosition: {x: 0.002473, y: -0.000513, z: 0.053917997}
+    localRotation: {x: -0.27776638, y: -0.07324448, z: 0.07197386, w: -0.95514446}
+  - jointName: R_RingIntermediate
+    localPosition: {x: -0.0000005266108, y: 0.0000003652638, z: 0.03899503}
+    localRotation: {x: 0.58877635, y: -0.01948445, z: -0.035187818, w: 0.80729455}
+  - jointName: R_RingDistal
+    localPosition: {x: 0.000001039646, y: -0.00000054232555, z: 0.026573557}
+    localRotation: {x: 0.5742719, y: -0.030116718, z: 0.0069174464, w: 0.8180812}
+  - jointName: R_RingTip
+    localPosition: {x: 0.0002563861, y: 0.0016065919, z: 0.024326166}
+    localRotation: {x: 2.7755576e-17, y: 1.3877788e-17, z: -3.85186e-34, w: 1}
+  - jointName: R_ThumbMetacarpal
+    localPosition: {x: -0.030218, y: -0.016083999, z: 0.034498}
+    localRotation: {x: -0.027774965, y: 0.41759023, z: -0.49926037, w: -0.75867385}
+  - jointName: R_ThumbProximal
+    localPosition: {x: 0.0009862719, y: -0.0057129283, z: 0.031992175}
+    localRotation: {x: -0.317574, y: -0.2701035, z: 0.029601231, w: -0.90846837}
+  - jointName: R_ThumbDistal
+    localPosition: {x: 0.0000013840911, y: -0.000006110277, z: 0.033791523}
+    localRotation: {x: -0.112983726, y: 0.05061892, z: -0.07914508, w: -0.98914534}
+  - jointName: R_ThumbTip
+    localPosition: {x: 0.00067007233, y: 0.0010274227, z: 0.024590502}
+    localRotation: {x: 1.7347235e-18, y: 0, z: 0, w: 1}
